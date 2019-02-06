@@ -51,5 +51,9 @@ namespace SageAufbaukursCSharp.ViewModels
         }
         #endregion constructors
 
+
+        #region PushAenderung
+
+        #endregion
     }
 }
