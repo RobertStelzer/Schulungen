@@ -53,6 +53,10 @@ namespace SageAufbaukursCSharp.ServiceImplementations
                     return false;
                 }
             }
+            catch (PathTooLongException ptl)
+            {
+                return false;
+            }
             catch (Exception e)
             {
                 Fault = e;
